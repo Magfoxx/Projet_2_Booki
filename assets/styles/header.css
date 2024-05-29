@@ -1,0 +1,39 @@
+header {
+
+  display: flex;
+  justify-content: space-between;
+  height: 79px;
+}
+
+header img {
+  height: 30px;
+  margin: 20px 0;
+}
+
+nav ul {
+  display: flex;
+  margin: 0;
+}
+
+nav ul li {
+  margin-left: 50px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+
+nav ul li:hover {
+  color: var(--main-color);
+  position: relative;
+  transition: 0.2s;
+}
+
+nav ul li::before {
+  content: "";
+  background: var(--main-color);
+  position: absolute;
+  height: 3px;
+  width: 100%;
+  top: -8px;
+  transition: 0.2s;
+}
