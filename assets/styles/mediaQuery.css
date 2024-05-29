@@ -1,4 +1,5 @@
 @media screen and (max-width: 1024px) {
+  /******* Section Header *******/
 
   /******* Section Searchfilter ********/
   /* Filtres*/
@@ -97,7 +98,6 @@
     content: none;
   }
 
-  /* j'ai du rajouter une div class="bar" au fichier index.html pour avoir le rendu demandé de la barre bleu et grise en version mobile */
   .bar {
     display: grid;
     grid-template-columns: 50% 50%;
