@@ -58,7 +58,13 @@
   cursor: pointer;
   outline: none;
   height: 48px;
-  padding: 0 15px
+  padding: 0 15px;
+  transition: 0.2s;
+}
+
+#btn-search:hover {
+  transform: scale(1.04);
+  transition: 0.2s;
 }
 
 #btn-search-phone {

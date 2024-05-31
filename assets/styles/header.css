@@ -1,5 +1,4 @@
 header {
-
   display: flex;
   justify-content: space-between;
   height: 79px;
@@ -20,7 +19,6 @@ nav ul li {
   margin-right: 10px;
   cursor: pointer;
 }
-
 
 nav ul li:hover {
   color: var(--main-color);

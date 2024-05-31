@@ -1,5 +1,4 @@
 @media screen and (max-width: 1024px) {
-  /******* Section Header *******/
 
   /******* Section Searchfilter ********/
   /* Filtres*/
@@ -24,7 +23,6 @@
   }
 
   .populaires {
-    width: 100%;
     width: 100%;
     margin-top: 50px;
 
@@ -63,7 +61,6 @@
 @media (max-width: 767.98px) {
 
   /********** Section Header ***********/
-
   .main-container {
     max-width: 768px;
     padding: 0;
@@ -203,6 +200,9 @@
   }
 
   .populaires-cards .card {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     margin-top: 15px;
   }
 
