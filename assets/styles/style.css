@@ -50,7 +50,7 @@ a {
     transition: 0.2s;
 }
 
-/* Rajout d'un hover sur les cards en y incluant une ombre et un scale */
+/* Rajout d'un hover sur les cards en y incluant une ombre et un scale pour donner un petit effet au survol */
 .card:hover {
     transform: scale(1.03);
     transition: 0.2s;

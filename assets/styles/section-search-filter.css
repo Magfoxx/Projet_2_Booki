@@ -87,8 +87,6 @@
 }
 
 .btn {
-  display: flex;
-  align-items: center;
   gap: 5px;
   border: 1px solid var(--main-border-color);
   border-radius: 25px;

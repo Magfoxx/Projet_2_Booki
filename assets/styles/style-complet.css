@@ -8,7 +8,7 @@
   --main-color: #0065FC;
   --main-bg-color: #F2F2F2;
   --main-border-color: #D9D9D9;
-  /* Couleur des bordures des bouttons */
+  /* Rajout de la couleur des bordures des bouttons */
   --filter-bg-color: #DEEBFF;
 }
 
@@ -187,7 +187,6 @@ nav ul li::before {
 }
 
 /* FilterBar */
-
 .filterBar {
   display: flex;
   align-items: center;
@@ -246,7 +245,6 @@ nav ul li::before {
 }
 
 /************ hebergements et populaires ************/
-
 .hebergements-and-populaires {
   display: flex;
   justify-content: space-between;
@@ -356,7 +354,6 @@ nav ul li::before {
 }
 
 /************ Activités ************/
-
 .activites {
   margin: 50px 30px;
   max-width: 1340px;
@@ -395,7 +392,6 @@ nav ul li::before {
 }
 
 /*********** Footer **********/
-
 footer {
   background-color: var(--main-bg-color);
   display: grid;
@@ -420,7 +416,6 @@ footer {
 }
 
 /********* Media Queries **********/
-
 @media screen and (max-width: 1024px) {
 
   /******* Section Searchfilter ********/
@@ -565,7 +560,6 @@ footer {
   }
 
   /* Section Filtres */
-
   .btn-container {
     flex-wrap: wrap;
   }
@@ -595,7 +589,6 @@ footer {
   .infoBar p {
     font-size: 14px;
   }
-
 
   /******** Section Hebergement et populaires **********/
   .hebergements-and-populaires section {
@@ -642,7 +635,6 @@ footer {
   }
 
   /******* Section Activités *******/
-
   .activites-cards {
     flex-direction: column;
     gap: 15px;

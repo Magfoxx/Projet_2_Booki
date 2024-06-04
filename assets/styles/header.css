@@ -20,12 +20,14 @@ nav ul li {
   cursor: pointer;
 }
 
+/* Mise en place d'un hover pour le changement de couleur du texte au survol de la souris */
 nav ul li:hover {
   color: var(--main-color);
   position: relative;
   transition: 0.2s;
 }
 
+/* Mise en place d'un before pour la barre bleur au survol de la souris */
 nav ul li::before {
   content: "";
   background: var(--main-color);
